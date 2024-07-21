@@ -1,2 +1,3 @@
-.vscode/sftp.json
-wp-content/plugins/example/package-lock.json
+.vscode/
+_dist/
+node_modules/
