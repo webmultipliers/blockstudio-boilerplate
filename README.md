@@ -49,7 +49,12 @@ Includes an opinionated theme intended to be extended by a required companion pl
 
 ### Misc
 
-- Mercury 
+- Coda
+- Fathom Analytics
+- Iubenda
+- Klaviyo
+- Mercury
+- Oh Dear
 
 ## Sponsorship
 If you find this project helpful, give me money. No, seriously, pull out the ole wallet and fork over some cheddar. Time is money, and if I save you some time, you some should give me some money.
