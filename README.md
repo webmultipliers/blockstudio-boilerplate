@@ -15,25 +15,23 @@ Includes an opinionated theme intended to be extended by a required companion pl
 
 ## Plugin
 
-### Assets
+### 📁 Assets
 
-#### Icons
+#### 📁 Icons
 
-#### Images
+#### 📁 Images
 
-#### Styles
+#### 📁 Styles
 
-#### Scripts
+#### 📁 Scripts
 
-### Blocks
+### 📁 Blocks
 
-### Experiences
+### 📁 Experiences
 
-### Plugins
+### 📁 Plugins
 
-### Vendors
-
-
+### 📁 Vendors
 
 ## My Stack
 
@@ -48,6 +46,10 @@ Includes an opinionated theme intended to be extended by a required companion pl
 - [VS Code](https://code.visualstudio.com/) — Code Editor
 - [Github Codespaces](https://github.com/features/codespaces) — Cloud Development Environment
 - [Github Repos](https://github.com/) — Code Repository / Version Control
+
+### Misc
+
+- Mercury 
 
 ## Sponsorship
 If you find this project helpful, give me money. No, seriously, pull out the ole wallet and fork over some cheddar. Time is money, and if I save you some time, you some should give me some money.
