@@ -4,9 +4,14 @@ A deeply opinionated way to get started with WordPress and Blockstudio.
 The project will be renamed at in the future. It's far more than a boilerplate.
 
 ## Requirements
+As long as you're committed to WordPress and building blocks with Blockstudio, you'll find useful tidbits in this project. 
+- [WordPress](https://wordpress.org/)
+- [Blockstudio](https://blockstudio.dev/)
+
+## Getting Started
 
 ## Theme
-A deeply opinionated theme intended to be extended by a required companion plugin.
+Includes an opinionated theme intended to be extended by a required companion plugin.
 
 ## Plugin
 
@@ -28,7 +33,7 @@ A deeply opinionated theme intended to be extended by a required companion plugi
 
 ### Vendors
 
-## Getting Started
+
 
 ## My Stack
 
@@ -44,7 +49,10 @@ A deeply opinionated theme intended to be extended by a required companion plugi
 - [Github Codespaces](https://github.com/features/codespaces) — Cloud Development Environment
 - [Github Repos](https://github.com/) — Code Repository / Version Control
 
+## Sponsorship
+If you find this project helpful, give me money. No, seriously, pull out the ole wallet and fork over some cheddar. Time is money, and if I save you some time, you some should give me some money.
+
 ## Disclaimer
 - It's amateur hour over here. All code here is for inspiration only.
-- You should enlist someone else to look over any code you ship to production.
-- Some links are contain affiliate codes. I may earn a commission if you take up my recommendations.
+- You should enlist someone else to review any code you ship to production.
+- Some links contain affiliate codes. I may earn a commission if you take up my recommendations.
