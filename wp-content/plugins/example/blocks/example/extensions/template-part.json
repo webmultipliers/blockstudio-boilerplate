@@ -1,0 +1,14 @@
+{
+  "$schema": "https://app.blockstudio.dev/schema/extend",
+  "name": "core/template-part",
+  "blockstudio": {
+    "extend": true,
+    "attributes": [
+      {
+        "type": "message",
+        "id": "messageTemplatePart",
+        "value": "This is a custom message field extending the template part block."
+      }
+    ]
+  }
+}

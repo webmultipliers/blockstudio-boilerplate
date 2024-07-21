@@ -1,0 +1,1 @@
+<?php // Init for Snippets

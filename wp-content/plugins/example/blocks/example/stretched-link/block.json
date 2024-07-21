@@ -1,0 +1,48 @@
+{
+  "$schema": "https://app.blockstudio.dev/schema",
+  "name": "example/stretched-link",
+  "title": "Stretched Link",
+  "category": "text",
+  "icon": "admin-links",
+  "description": "A link that spans the entire width and height of its parent.",
+  "supports": {
+	"layout": true,
+	"align": ["wide", "full", "left", "center", "right"]
+  },
+	"blockstudio": {
+		"attributes": [
+			{
+				"type": "text",
+				"id": "linkText",
+				"placeholder": "Read More",
+				"default": "Read More",
+				"fallback": "Read More"
+			},
+			{
+				"label": "Inherit Link",
+				"type": "toggle",
+				"id": "inherit",
+				"default": false
+			},
+			{
+				"type": "link",
+				"id": "link",
+				"conditions": [
+					[
+						{
+							"id": "inherit",
+							"operator": "!=",
+							"value": true
+						}
+					]
+				]
+			},
+			{
+				"id": "tag",
+				"type": "text",
+				"default": "div",
+				"label": "HTML Element"
+			}
+		]
+	}
+}

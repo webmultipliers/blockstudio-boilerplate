@@ -1,0 +1,1 @@
+Inspired by the [Bootstrap documentation](https://getbootstrap.com/docs/4.5/utilities/stretched-link/), this block creates a link that stretches the entire width and height of its parent.

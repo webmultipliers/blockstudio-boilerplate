@@ -1,0 +1,17 @@
+{
+  "$schema": "https://app.blockstudio.dev/schema/extend",
+  "name": [
+	"example/custom-block-1",
+	"example/custom-block-2"
+  ],
+  "blockstudio": {
+    "extend": true,
+    "attributes": [
+      {
+        "type": "message",
+        "id": "message",
+        "value": "This is a custom message field extending several blocks."
+      }
+    ]
+  }
+}

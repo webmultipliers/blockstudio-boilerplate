@@ -1,0 +1,114 @@
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+
+$enable-caret: false;
+$enable-rounded: false;
+$enable-grid-classes: false;
+$enable-container-classes: true;
+$enable-cssgrid: true;
+$enable-rfs: false;
+$enable-validation-icons: false;
+
+$enable-dark-mode: false;
+
+$prefix: wp--custom--;
+
+$spacers: (
+  "0": 0
+);
+
+$position-values: (
+  0: 0,
+  50: 50%,
+  100: 100%
+);
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px
+);
+
+$grid-columns: 12;
+$grid-gutter-width: 1.5rem;
+$grid-row-columns: 6;
+
+$zindex-levels: (
+  n1: -1,
+  0: 0,
+  1: 1,
+  2: 2,
+  3: 3
+);
+
+@import "../../node_modules/bootstrap/scss/maps";
+@import "../../node_modules/bootstrap/scss/mixins";
+@import "../../node_modules/bootstrap/scss/utilities";
+
+$utilities: map-get-multiple(
+  $utilities,
+  (
+    "align",
+    "float",
+    "object-fit",
+    "opacity",
+    "overflow",
+    "overflow-x",
+    "overflow-y",
+    "position",
+    "position-x",
+    "position-y",
+    "top",
+    "bottom",
+    "start",
+    "end",
+    "translate-middle",
+    "display",
+    "flex",
+    "flex-direction",
+    "flex-grow",
+    "flex-shrink",
+    "flex-wrap",
+    "justify-content",
+    "align-items",
+    "align-content",
+    "align-self",
+    "order",
+    "margin",
+    "margin-x",
+    "margin-y",
+    "margin-top",
+    "margin-end",
+    "margin-bottom",
+    "margin-start",
+    "padding",
+    "padding-x",
+    "padding-y",
+    "padding-top",
+    "padding-end",
+    "padding-bottom",
+    "padding-start",
+    "gap",
+    "row-gap",
+    "column-gap",
+    "text-align",
+    "word-wrap",
+    "white-space",
+    "text-opacity",
+    "bg-opacity",
+    "visibility",
+    "z-index",
+  )
+);
+
+@import "../../node_modules/bootstrap/scss/containers";
+@import "../../node_modules/bootstrap/scss/grid";
+@import "../../node_modules/bootstrap/scss/transitions";
+
+// Helpers
+@import "../../node_modules/bootstrap/scss/helpers";
+
+// Utilities
+@import "../../node_modules/bootstrap/scss/utilities/api";
