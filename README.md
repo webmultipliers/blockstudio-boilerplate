@@ -32,8 +32,19 @@ A deeply opinionated theme intended to be extended by a required companion plugi
 
 ## My Stack
 
-- [InstaWP](https://app.instawp.io/register?ref=39TUWaLAzX)
-- [Meta Box](https://metabox.io/)
-- [VS Code](https://code.visualstudio.com/)
-- [Github Codespaces](https://github.com/features/codespaces)
-- [Github Repos](https://github.com/)
+### Hosting
+- [InstaWP](https://app.instawp.io/register?ref=39TUWaLAzX) — Staging & Production Sites
+
+### Building
+- [Meta Box](https://metabox.sjv.io/XYbB05) — Custom Fields
+- [Blockstudio](https://blockstudio.dev/) — Custom Blocks & Snippets
+
+### Coding
+- [VS Code](https://code.visualstudio.com/) — Code Editor
+- [Github Codespaces](https://github.com/features/codespaces) — Cloud Development Environment
+- [Github Repos](https://github.com/) — Code Repository / Version Control
+
+## Disclaimer
+- It's amateur hour over here. All code here is for inspiration only.
+- You should enlist someone else to look over any code you ship to production.
+- Some links are contain affiliate codes. I may earn a commission if you take up my recommendations.
