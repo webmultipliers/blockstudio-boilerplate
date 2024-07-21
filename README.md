@@ -34,6 +34,9 @@ Includes an opinionated theme intended to be extended by a required companion pl
 ### 📁 Vendors
 
 ## My Stack
+I may use these solutions as representative services to build blocks to demonstrate capabilities.
+
+If you don't like what I picked, you're on your own to find an alternative. If I don't use it, I'm not going to recommend it. And, I'm not going to add anything to the project that I can't personally provide support for.
 
 ### Hosting
 - [InstaWP](https://app.instawp.io/register?ref=39TUWaLAzX) — Staging & Production Sites
@@ -48,13 +51,15 @@ Includes an opinionated theme intended to be extended by a required companion pl
 - [Github Repos](https://github.com/) — Code Repository / Version Control
 
 ### Misc
-
-- Coda
-- Fathom Analytics
-- Iubenda
-- Klaviyo
-- Mercury
-- Oh Dear
+- 1Password — Password Manager
+- Cloudflare — DNS & CDN
+- Coda — Shared Docs
+- Fathom Analytics — Web Analytics
+- Iubenda — Web Compliance
+- Klaviyo — Marketing Automation
+- Mercury — Banking
+- Oh Dear — Web Monitoring
+- Shopify — Commerce
 
 ## Sponsorship
 If you find this project helpful, give me money. No, seriously, pull out the ole wallet and fork over some cheddar. Time is money, and if I save you some time, you some should give me some money.
