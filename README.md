@@ -11,7 +11,19 @@ As long as you're committed to WordPress and building blocks with Blockstudio, y
 ## Getting Started
 
 ## Theme
-Includes an opinionated theme intended to be extended by a required companion plugin.
+Includes an opinionated theme intended to be extended by a required companion plugin. 
+
+### Root Files
+
+### Template Files
+
+### Parts
+
+### Patterns
+
+### Assets
+
+#### Fonts
 
 ## Plugin
 
@@ -28,6 +40,17 @@ Includes an opinionated theme intended to be extended by a required companion pl
 ### 📁 Blocks
 
 ### 📁 Experiences
+I use the term "experiences" to describe how users can interact with the site, from logged-out visitors to logged-in admins. 
+
+Each directory in the `experiences` tends to represent a broad, encapsulating set of features that may span 0 or more post types, taxonomies, custom field groups, and more. 
+
+Most projects will bundle these directories in an `includes` folder. You do you, though.
+
+Directories I typically include:
+- Reading
+- Writing
+- Editing
+- Branding
 
 ### 📁 Plugins
 
