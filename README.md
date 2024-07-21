@@ -32,8 +32,8 @@ A deeply opinionated theme intended to be extended by a required companion plugi
 
 ## My Stack
 
-- [InstaWP]([url](https://app.instawp.io/register?ref=39TUWaLAzX))
-- [Meta Box]([url](https://metabox.io/))
-- [VS Code]([url](https://code.visualstudio.com/))
-- [Github Codespaces]([url](https://github.com/features/codespaces))
-- [Github Repos]([url](https://github.com/))
+- [InstaWP](https://app.instawp.io/register?ref=39TUWaLAzX)
+- [Meta Box](https://metabox.io/)
+- [VS Code](https://code.visualstudio.com/)
+- [Github Codespaces](https://github.com/features/codespaces)
+- [Github Repos](https://github.com/)
