@@ -31,7 +31,7 @@ Everything fallsback to `index.php` so I essentially ignore it since anticipate 
 - `archive.php` — The archive template file.
 - `author.php` — The author archive template file.
 - `front-page.php` — The front page template file.
-- `index.php` — The main template file.
+- `index.php` — The fallback template file.
 - `page.php` — The single page template file.
 - `search.php` — The search results template file.
 - `single.php` — The single post template file.
@@ -39,13 +39,20 @@ Everything fallsback to `index.php` so I essentially ignore it since anticipate 
 ### Parts
 Not all of these parts are required, but I follow this pattern to keep things organized. 
 
+#### Primary Site Components
 - `site-header.php` — The site header template part. It's usually just named `header` but I like to be explicit.
 - `site-footer.php` — The site footer template part.
+
+#### Main Components
 - `main-*.php` — The main content template part.
 - `main-*-article.php` —  The main content article template part.
 - `main-*-aside.php` — The main content aside template part.
 - `main-*-query.php` — The main content query template part.
 - `main-*-comments.php` — The main content comments template part.
+
+#### Modal, Collapse, and Off-Canvas
+- `site-menu-collapsed.php` — The site menu template part.
+- `site-search-collapsed.php` — The site sidebar template part.
 
 ### Patterns
 Patterns are a way to create reusable blocks of content that can be used in multiple places. I don't really use them in this project, but I include the directory for future use. 
@@ -93,8 +100,20 @@ Directories I typically include:
 - Branding
 
 ### 📁 Plugins
+The `Blockstudio\Build` class is initated in the `example/plugins/` directory to serve as the home for all code snippets extending any plugins installed on the site. Often plugins will require you to add code your theme's `functions.php` file or through a code snippet plugin. 
+
+For any plugins you need to extend, create a subdirectory in the `plugins` directory using the plugin's slug. 
+
+- `init-*.php` — The `.php` code you want to run. An `init.php` file is required any time you want any code in the directory to be included on the site, including styles and scripts.
+- `README.md` — A brief description of the plugin and what you're doing with it.
+
 
 ### 📁 Vendors
+The `Blockstudio\Build` class is initated in the `example/vendors/` directory to serve as the home for all code snippets related to a specific vendor. Like the `plugins` directory, you can create a subdirectory in the `vendors` directory using the vendor's name. and the recommended files.
+
+The vendor directory is one the last places I look to add code to the site. I prefer to extend plugins or keep code with the block or experience it's related to.
+
+When the code has no ties to anything other than the external service, it goes in the vendor directory. Blocks and other experiences may use functions from the vendor directory. 
 
 ## My Stack
 I may use these solutions as representative services to build blocks to demonstrate capabilities.
