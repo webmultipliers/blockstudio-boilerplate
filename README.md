@@ -74,17 +74,10 @@ I don't have any images, but I would probably put them here.
 
 ### 📁 Blocks
 
-#### 📁 Core
-
-##### Extensions
-
-##### Blocks
-
-#### 📁 Example 
-
-##### Extensions
-
-##### Blocks
+- Each block namespace has a directory in the `blocks` directory.
+- Each is initialized as its own Blockstudio instance.
+- Each block has its own directory in the block namespace directory.
+- Extension folders can be added to each namespace directory to extend a block or blocks by name.
 
 ### 📁 Experiences
 I use the term "experiences" to describe how users can interact with the site, from logged-out visitors to logged-in admins. 

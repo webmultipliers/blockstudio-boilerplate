@@ -1,10 +1,20 @@
 <?php
 
-/**
- * Plugin Name: Example Plugin
- * Text Domain: example
- * Description: Example Plugin
- * Requires Plugins: blockstudio
+/*
+ * Plugin Name:       Example
+ * Plugin URI:        https://example.com/
+ * Description:       A companion plugin for the theme.
+ * Version:           1.0.0
+ * Requires at least: 6.6
+ * Requires PHP:      8.0
+ * Author:            Vinny Green
+ * Author URI:        https://vinnysgreen.com/
+ * License:           GPL v2 or later
+ * License URI:       https://www.gnu.org/licenses/gpl-2.0.html
+ * Update URI:        https://example.com/my-plugin/
+ * Text Domain:       example
+ * Domain Path:       /languages
+ * Requires Plugins:  blockstudio
  */
 
 if (!defined('ABSPATH')) {
