@@ -75,16 +75,67 @@ I don't have any icons, but I would probably put them here.
 #### 📁 Images
 I don't have any images, but I would probably put them here.
 
-#### 📁 Styles
-
 #### 📁 Scripts
+The `/scripts` directory is where all the scripts for the site are stored. The directory is initiated as a Blockstudio instance with all filenames and Blockstudio settings determining how the `/_dist` directory is compiled. 
+
+The `global-` prefix is used to add the script everwhere. The `-editor` and `-view` prefixes are used to declare if the script should be isolated to a particular context.
+
+The `-inline` suffix can used to have the js files inlined to the end of the body. Each file is only inlined once.
+
+##### Global Scripts
+The project includes the `global-scripts` file along with the variations using the `editor` and `view` context suffixes.
+
+- `global-scripts.js` 
+- `global-scripts-editor.js`
+- `global-scripts-view.js`
+
+##### Block Editor
+The `/block-editor` directory is where all the scripts for the block editor are stored. The `block-editor-` prefix is used to add the script to the block editor. The project includes an initial `block-editor-scripts.js` file.
+
+- block-editor-scripts.js
+
+##### Admin Scripts
+The `/admin-scripts` directory is where all the scripts for the admin are stored. The `admin-` prefix is used to add the script to the admin. The project includes an initial `admin-scripts.js` file.
+
+- admin-scripts.js
+
+#### 📁 Styles
+The `/styles` directory is where all the styles for the site are stored. The directory is initiated as a Blockstudio instance with all filenames and Blockstudio settings determining how the `/_dist` directory is compiled.
+
+All included styles will be written to `.scss` files. Blockstudio will compile the `.scss` files to `.css` files in the `/_dist` directory. You can use `.css` but you won't find any `.css` files in this project.
+
+The `-inline` suffix can used to have the scss files inlined to the head. Each file is only inlined once. 
+
+You can also use the `-scoped` suffix sets all styles require a specific class selector to apply to the block. You can use `bs_get_scoped_class` function to get the class for the block.
+
+##### Global Styles
+The project includes the `global-styles` file along with `editor` and `view` context suffixes.
+
+- `global-styles.scss`
+- `global-styles-editor.scss`
+- `global-styles-view.scss`
+
+
+##### Block Editor
+The `/block-editor` directory is where all the styles for the block editor are stored. The `block-editor-` prefix is used to add the style to the block editor. The project includes an initial `block-editor-styles.scss` file.
+
+- block-editor-styles.scss
+
+##### Admin Styles
+The `/admin-styles` directory is where all the styles for the admin are stored. The `admin-` prefix is used to add the style to the admin. The project includes an initial `admin-styles.scss` file.
+
+- admin-styles.scss
 
 ### 📁 Blocks
+Each directory in the `blocks` is initaited as a Blockstudio instance to serve as a home for all blocks under a specific namespace. I recommend keeping the directory the same as namespace you're using the block.json files.
 
 - Each block namespace has a directory in the `blocks` directory.
 - Each is initialized as its own Blockstudio instance.
 - Each block has its own directory in the block namespace directory.
 - Extension folders can be added to each namespace directory to extend a block or blocks by name.
+- Variations, overrides, transformations are defined in the block.json
+
+The list of example blocks and the key block-building functionality is here.
 
 ### 📁 Experiences
 I use the term "experiences" to describe how users can interact with the site, from logged-out visitors to logged-in admins. 
@@ -94,10 +145,10 @@ Each directory in the `experiences` tends to represent a broad, encapsulating se
 Most projects will bundle these directories in an `includes` folder. You do you, though.
 
 Directories I typically include:
-- Reading
-- Writing
-- Editing
-- Branding
+- `/reading` — For anything related to reading content on the site.
+- `/editing` — For anything related to editing content on the site.
+- `/writing` — For anything related to writing content on the site.
+- `/branding` — For site-wide branding and settings.
 
 ### 📁 Plugins
 The `Blockstudio\Build` class is initated in the `example/plugins/` directory to serve as the home for all code snippets extending any plugins installed on the site. Often plugins will require you to add code your theme's `functions.php` file or through a code snippet plugin. 
