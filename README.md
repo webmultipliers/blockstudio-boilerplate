@@ -1,1 +1,1 @@
-# Blockstudio Boilerplate for WordPress Development
+# Blockstudio Boilerplate
