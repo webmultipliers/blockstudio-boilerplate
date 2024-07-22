@@ -138,7 +138,15 @@ Each directory in the `blocks` is initaited as a Blockstudio instance to serve a
 - Extension folders can be added to each namespace directory to extend a block or blocks by name.
 - Variations, overrides, transformations are defined in the block.json
 
-The list of example blocks and the key block-building functionality is here.
+#### Core Blocks
+The project demonstrates how to extend core WordPress blocks and how to organize code snippets that impact core blocks. For example:
+
+[Post Excerpt](/wp-content/plugins/example/blocks/core/post-excerpt/)
+
+#### Custom Blocks
+The project includes custom blocks that are not part of the core WordPress blocks. Each block has its own directory in the `blocks` directory. For example: 
+
+[Stretched Link](/wp-content/plugins/example/blocks/example/stretched-link/)
 
 ### 📁 Experiences
 I use the term "experiences" to describe how users can interact with the site, from logged-out visitors to logged-in admins. 
