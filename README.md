@@ -15,11 +15,11 @@ Includes an opinionated theme intended to be extended by a required companion pl
 
 ### Root Files
 
-- `theme.json` — The theme configuration file.
-- `style.css` — The theme stylesheet.
-- `functions.php` — The theme functions file. 
-- `index.php` — The theme index file.
-- `screenshot.png` — The theme screenshot.
+- `theme.json` — The theme configuration file and all styles that are assignable settings. This file is required for the theme to be recognized by WordPress as block-based.
+- `style.css` — The theme stylesheet that defines the theme name, version, author, and other details. We do not use this file for styles.
+- `functions.php` — The theme functions file. The file should be included, but all functionality is added via the plugin.
+- `index.php` — The theme index file. The file does not contain any code, but it's required for WordPress to recognize the theme.
+- `screenshot.png` — The theme screenshot. The file does not contain any code, but it's required for WordPress to display the theme in the admin.
 
 ### Template Files
 
@@ -115,7 +115,6 @@ The project includes the `global-styles` file along with `editor` and `view` con
 - `global-styles-editor.scss`
 - `global-styles-view.scss`
 
-
 ##### Block Editor
 The `/block-editor` directory is where all the styles for the block editor are stored. The `block-editor-` prefix is used to add the style to the block editor. The project includes an initial `block-editor-styles.scss` file.
 
@@ -176,7 +175,7 @@ If you don't like what I picked, you're on your own to find an alternative. If I
 
 ### Building
 - [Meta Box](https://metabox.sjv.io/XYbB05) — Custom Fields (Minus Blocks, Forms, and Views)
-- [Blockstudio](https://blockstudio.dev/) — Custom Blocks & Snippets
+- [Blockstudio](https://blockstudio.dev/?ref=16) — Custom Blocks & Snippets
 - [Bootstrap](https://getbootstrap.com/) — Frontend Framework (Partially)
 
 ### Coding
@@ -185,15 +184,15 @@ If you don't like what I picked, you're on your own to find an alternative. If I
 - [Github Repos](https://github.com/) — Code Repository / Version Control
 
 ### Misc
-- 1Password — Password Manager
-- Cloudflare — DNS & CDN
-- Coda — Shared Docs
-- Fathom Analytics — Web Analytics
-- Iubenda — Web Compliance
-- Klaviyo — Marketing Automation
-- Mercury — Banking
-- Oh Dear — Web Monitoring
-- Shopify — Commerce
+- [1Password](https://1password.com/) — Password Manager
+- [Cloudflare](https://cloudflare.com/) — DNS & CDN
+- [Coda](https://coda.grsm.io/efegxdnrx8nt) — Shared Docs
+- [Fathom Analytics](https://usefathom.com/ref/GCUTXX) — Web Analytics
+- [Iubenda](https://iubenda.refr.cc/owner13) — Web Compliance
+- [Klaviyo](https://www.klaviyo.com/partners/signup?utm_source=0013o00002bmWPFAA2&utm_medium=partner) — Marketing Automation
+- [Mercury](https://mercury.com/r/vinnysgreen) — Banking
+- [Oh Dear](https://ohdear.app/?via=vinny) — Web Monitoring
+- [Shopify](https://www.shopify.com/) — Commerce
 
 ## Sponsorship
 If you find this project helpful, give me money. No, seriously, pull out the ole wallet and fork over some cheddar. Time is money, and if I save you some time, you some should give me some money.
