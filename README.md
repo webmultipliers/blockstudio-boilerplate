@@ -6,9 +6,13 @@ The project will be renamed at in the future. It's far more than a boilerplate.
 ## Requirements
 As long as you're committed to WordPress and building blocks with Blockstudio, you'll find useful tidbits in this project. 
 - [WordPress](https://wordpress.org/)
-- [Blockstudio](https://blockstudio.dev/)
+- [Blockstudio](https://blockstudio.dev/?ref=16)
 
 ## Getting Started
+1. Create a WordPress site.
+2. Install the Blockstudio plugin.
+3. Install a block-based theme or make your own modelled after the included theme.
+4. Create a custom plugin to extend the theme and add blocks using Blockstudio.
 
 ## Theme
 Includes an opinionated theme intended to be extended by a required companion plugin. 
@@ -157,7 +161,6 @@ For any plugins you need to extend, create a subdirectory in the `plugins` direc
 - `init-*.php` — The `.php` code you want to run. An `init.php` file is required any time you want any code in the directory to be included on the site, including styles and scripts.
 - `README.md` — A brief description of the plugin and what you're doing with it.
 
-
 ### 📁 Vendors
 The `Blockstudio\Build` class is initated in the `example/vendors/` directory to serve as the home for all code snippets related to a specific vendor. Like the `plugins` directory, you can create a subdirectory in the `vendors` directory using the vendor's name. and the recommended files.
 
@@ -196,6 +199,9 @@ If you don't like what I picked, you're on your own to find an alternative. If I
 
 ## Sponsorship
 If you find this project helpful, give me money. No, seriously, pull out the ole wallet and fork over some cheddar. Time is money, and if I save you some time, you some should give me some money.
+
+## Future Work
+- More Blocks — Consider this pinned to the top of the list. I'll constantly be adding new blocks to the project.
 
 ## Disclaimer
 - It's amateur hour over here. All code here is for inspiration only.
